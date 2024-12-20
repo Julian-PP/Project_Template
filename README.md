@@ -30,9 +30,27 @@ to create a new repository in GitHub follow the next steps:
 
 ### Git Repository (local-base)
 
-Here we will give some tips to initialize a new repository in your local GIT. First of all you will need to open your bash terminal:
+Here we will give some tips to initialize a new repository in your local GIT. First of all you will need to open your bash terminal, and connect to your GitHub account following the next steps:
 
+1. Open the terminal:
 ![Bash_Terminal](docs/images/Bash_Terminal.png)
+
+--
+
+2. Open the configuration file for GitHub:
+```python
+    git config --global -e
+```
+--
+
+3. Add your own personal data (username, email and GitHub password).
+
+--
+
+4. Close the configuration file pressing "ESC" button and runnning the following command:
+```python
+    :wq!
+```
 
 Once you have done it, follow the next command steps:
 
